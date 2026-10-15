@@ -1,11 +1,23 @@
 # calendarAI
 
 ## Dlaczego?
-Planowanie zadan samemu przy sklonnosciach do prokrastynacji i natlokiem wymagajacych wielogodzinnego skupienia zadan sprawia czasami trudnosc. Dodatkowo, ciezko czasami pozwolic sobie na czas wolny patrzac na ilosc rzeczy do skonczenia/zrobienia. Chcemy stworzyc aplikacje, ktora bazujac na kontekscie uzytkownika, planie tygodniowym pozwoli i zaproponuje znalezienie odpowiedniego miejsca w planie zajec, tak aby minimalizowac straty na dojazdach, przygotowaniach sie i uwzgledniajac inne zajecia w danym dniu.
+Przy prokrastynacji i natłoku wymagających skupienia zadań trudno samodzielnie zaplanować pracę, a liczba obowiązków utrudnia znalezienie czasu na odpoczynek. calendarAI pomaga ułożyć wykonalny plan, uwzględniając codzienne zobowiązania i ograniczając straty czasu na dojazdy oraz przygotowania.
 
-## Kontekst uzycia
-Mam tydzien z zaplanowanymi zajeciami na uczelni, sport wieczorem, przerwa na sen. Istnieje kontekst, ze chcialbym poswiecic przed danym dniem np. z powodu kolokwium 4h na powtorzenie materialu. Apka analizuje moj tydzien i znajduje na to odpowiednie miejsce. Tak samo np. chcialbym obejrzec film X w kinie - apka sama znajduje w ktorym kinie moge zobaczyc dany film a takze wybiera lokalizacje w oparciu o to, gdzie bedzie bliski dojazd w zaleznosci od miejsca wykonywania poprzedniej aktywnosci i wybiera dzien i czas kiedy najlepiej to zrobic - np. wtedy, gdy potrzebuje odpoczynku.
+## Cel
+calendarAI pomaga planować czas w napiętym i zmiennym grafiku. Nie tylko zapisuje wydarzenia i terminy, ale podpowiada, nad czym i kiedy pracować, aby zdążyć z zadaniami i zachować czas na odpoczynek.
 
-Dodatkowo apka zaznacza w widoczny sposob deadline'y taskow i proponuje kiedy sie na nich skupic wykorzystujac podana w kontekscie metode np. pomodoro.
+## Wizja
+Aplikacja układa plan w skali tygodnia, miesiąca i roku, uwzględniając wydarzenia, czas na sen, weekendy, święta, rozrywkę oraz preferencje użytkownika, takie jak długość bloków skupienia i metoda pracy (np. Pomodoro).
+
+Użytkownik dodaje:
+- **Wydarzenia** — zajęcia, treningi i inne stałe lub jednorazowe przedziały dostępności albo zajętości.
+- **Zadania z terminem** — deadline oraz szacowany czas potrzebny na wykonanie.
+
+Kalendarz proponuje bloki pracy przed terminami, uwzględniając dostępne okna, priorytety, kontekst dnia i potrzebny czas na dojazd lub przygotowanie. Może też dopasować aktywności, takie jak wyjście do kina, do planu i lokalizacji użytkownika. Deadline’y są wyraźnie oznaczone, a plan pozostaje elastyczny, by pomagać użytkownikowi podejmować bieżące decyzje bez rezygnowania z odpoczynku.
+
+## Postscriptum
+calendarAI może wspierać budowanie nawyku samodyscypliny przez regularne realizowanie zaplanowanych bloków pracy — bez traktowania planu jako sztywnego nakazu.
+
+*Personalna podpowiedź: Maciej Welpa*
 
 
