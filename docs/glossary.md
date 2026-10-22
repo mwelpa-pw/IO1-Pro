@@ -30,15 +30,15 @@
 | Wydarzenie cykliczne | Wydarzenie powtarzające się według reguły (np. co tydzień we wtorek) |
 | Wydarzenie jednorazowe | Wydarzenie występujące tylko raz |
 | Miejsce | Lokalizacja wydarzenia lub bloku pracy |
-| Czas przejścia | Czas potrzebny na dojazd lub przygotowanie przed wydarzeniem. Liczony na podstawie miejsca poprzedniego i bieżącego wydarzenia |
+| Czas przejścia (czas buforowy) | Czas potrzebny na dojazd lub przygotowanie przed wydarzeniem lub blokiem pracy. Liczony na podstawie miejsca poprzedniej i bieżącej aktywności |
 
-## Taski
+## Taski (zadania)
 
 | Pojęcie | Definicja |
 |---|---|
-| Task | Zadanie do wykonania przez użytkownika, zdefiniowane przez szacowany czas, deadline i priorytet |
+| Task (zadanie) | Czynność do wykonania przez użytkownika, zdefiniowana przez szacowany czas, deadline i priorytet. W przeciwieństwie do wydarzenia nie ma z góry narzuconej godziny realizacji |
 | Szacowany czas | Łączny czas potrzebny na ukończenie taska, podany przez użytkownika |
-| Deadline | Moment, przed którym task musi być ukończony |
+| Deadline (termin) | Moment, przed którym task musi być ukończony |
 | Priorytet | Waga taska wpływająca na kolejność i porę planowania bloków pracy |
 | Blok pracy | Zaplanowany przez agenta przedział czasu przeznaczony na realizację części taska. Dzieli się na bloki skupienia |
 | Blok skupienia | Nieprzerwany odcinek pracy wewnątrz bloku pracy, o długości wynikającej z preferencji pracy |
@@ -63,7 +63,7 @@ flowchart LR
   U["<b>Użytkownik</b><br/>Kontekst użytkownika<br/>Preferencje pracy<br/>Ankieta początkowa<br/>Ankieta okresowa"]
   K["<b>Kalendarz</b><br/>Dzień<br/>Kontekst dnia<br/>Dostępność: wolny / zajęty / chroniony"]
   W["<b>Wydarzenia</b><br/>Wydarzenie cykliczne<br/>Wydarzenie jednorazowe<br/>Miejsce<br/>Czas przejścia"]
-  T["<b>Taski</b><br/>Szacowany czas, deadline, priorytet<br/>Blok pracy → bloki skupienia<br/>Metoda pracy<br/>Checkpoint → postęp, pozostały czas"]
+  T["<b>Taski (zadania)</b><br/>Szacowany czas, deadline, priorytet<br/>Blok pracy → bloki skupienia<br/>Metoda pracy<br/>Checkpoint → postęp, pozostały czas"]
   A["<b>Agent</b><br/>Prompt użytkownika<br/>Rekalkulacja<br/>Plan"]
 
   U -->|ma| K
