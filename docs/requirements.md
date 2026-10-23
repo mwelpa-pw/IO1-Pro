@@ -27,8 +27,9 @@ Każde wymaganie posiada unikalny identyfikator, np. FR-01 lub NFR-01.
 | FR-09 | System informuje użytkownika, gdy nie istnieje plan dotrzymujący wszystkich deadline'ów, i proponuje zmianę. |
 | FR-10 | System przy pierwszym uruchomieniu przeprowadza ankietę początkową ustalającą preferencje pracy użytkownika oraz umożliwia ich późniejszą zmianę. |
 | FR-11 | System okresowo przeprowadza ankietę aktualizującą kontekst użytkownika. |
-| FR-12 | System prezentuje kalendarz w widoku dnia, tygodnia i miesiąca z wyróżnionymi deadline'ami. |
+| FR-12 | System prezentuje kalendarz w widoku dnia, tygodnia i miesiąca z wyróżnionymi deadline'ami i wydarzeniami. |
 | FR-13 | System umożliwia użytkownikowi oznaczenie przedziałów jako chronione (np. sen, weekendy, święta). |
+| FR-14 | System umożliwia użytkownikowi dodanie deadlina w punkcie początku wydarzenia |
 
 ## Wymagania niefunkcjonalne
 
@@ -56,3 +57,6 @@ Każde wymaganie posiada unikalny identyfikator, np. FR-01 lub NFR-01.
 - Jak system reaguje na nakładające się na siebie wydarzenia (konflikt w kalendarzu)?
 - Czy system wysyła powiadomienia lub przypomnienia o rozpoczęciu bloku pracy?
 - Czy system uczy się realnego tempa pracy użytkownika i automatycznie koryguje szacowany czas tasków?
+- Może dłuższe taski można podzielić na "etapy" ułatwiające tracking? Nawet automatycznie.
+- Kategorie tasków mogą pozwolić na personalizację grafiku. "Job" może być domyślną kategorią tasków związanych z pracą i mieć stałą lokalizację - biuro. (FR-05)
+- Jaki margines planuje system? S curve?
